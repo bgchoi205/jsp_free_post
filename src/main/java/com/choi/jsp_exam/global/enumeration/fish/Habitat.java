@@ -5,12 +5,11 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public enum CookingStyle {
+public enum Habitat {
 
-    GRILL("구이"),
-    SASHIMI("회"),
-    SOUP("탕"),
-    BLANCH("데침");
+    WESTSEA("서해"),
+    EASTSEA("동해"),
+    SOUTHSEA("남해");
 
     private String value;
 }

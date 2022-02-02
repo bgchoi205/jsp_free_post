@@ -23,10 +23,13 @@ public class FishService {
 
         fishNameCheck(fishSaveDto.getName());
 
+
+
         Fish fish = Fish.builder()
                 .name(fishSaveDto.getName())
                 .season(fishSaveDto.getSeason())
-                .cookingStyle(fishSaveDto.getCookingStyle())
+                .habitats(fishSaveDto.getHabitats())
+                .cookingStyles(fishSaveDto.getCookingStyles())
                 .description(fishSaveDto.getDescription())
                 .build();
 
